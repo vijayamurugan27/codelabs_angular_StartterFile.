@@ -1,0 +1,22 @@
+for the angular.io file: 
+
+We need to do these do changes in the angular.json file.
+
+
+first select the are where we have to give like this 
+
+ "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+
+instead of this
+
+ "assets": [
+ "glob": "**/*",
+                 "input": "public",
+            ],
+
+
+
+in angular.json
